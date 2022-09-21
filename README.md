@@ -1,3 +1,7 @@
 # UCL-NErecovery
 
 This project is developed under the supervision of Prof.Alastair Moore and Mr.Shangguan Jiangbo
+
+Abstract 
+
+Currently, most of the cutting-edge research in the area of Text Simplification focuses on how appropriate the model can perform add, keep and delete actions on the original complex sentence. For text simplification in a specific domain, such as the medical and law industries, Name Entity Hallucination is a problem that cannot be ignored. This refers to certain Name Entities, or specific terms, that are meant to be preserved during the simplification process have been simplified by the system, creating discrepancies between the original sentence and the simplified sentence. In this paper, we proposed two different approaches to overcome this issue while maintaining the level of text simplification performance, and built a Text Simplification System by combining these two approaches to achieve the best outcome. To be more specific, this research first augments a state-of-the-art text simplification model using a variety of control tokens, and further developed a Name Entity Recovery model to address the Name Entity Hallucination issue. When applied to reality, these models can be further fine-tuned to achieve the best results in the specific industry. The resulting Text Simplification System we built successfully increase the efficiency of the Name Entity retention rate from 60.4\% to over 80\% while maintaining the same quality in text simplification, compared to the state-of-the-art MUSS text simplification model. 
